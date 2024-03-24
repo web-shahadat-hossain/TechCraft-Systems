@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Product 1",
+    "category": "CPU / Processor",
+    "price": 100,
+    "status": "In Stock",
+    "rating": 4,
+    "image": "/images/1.webp"
+  },
+  {
+    "id": "2",
+    "name": "Product 2",
+    "category": "Motherboard",
+    "price": 150,
+    "status": "Out of Stock",
+    "rating": 3,
+    "image": "/images/2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Product 3",
+    "category": "RAM",
+    "price": 80,
+    "status": "In Stock",
+    "rating": 5,
+    "image": "/images/3.webp"
+  },
+  {
+    "id": "4",
+    "name": "Product 4",
+    "category": "Power Supply Unit",
+    "price": 200,
+    "status": "In Stock",
+    "rating": 4,
+    "image": "/images/4.webp"
+  },
+  {
+    "id": "5",
+    "name": "Product 5",
+    "category": "Storage Device",
+    "price": 120,
+    "status": "Out of Stock",
+    "rating": 4,
+    "image": "/images/5.webp"
+  },
+  {
+    "id": "6",
+    "name": "Product 6",
+    "category": "Monitor",
+    "price": 300,
+    "status": "In Stock",
+    "rating": 5,
+    "image": "/images/6.webp"
+  },
+  {
+    "id": "7",
+    "name": "Product 7",
+    "category": "Others (GPU, Mouse, Keyboard, etc…)",
+    "price": 50,
+    "status": "In Stock",
+    "rating": 4,
+    "image": "/images/7.webp"
+  }
+]
