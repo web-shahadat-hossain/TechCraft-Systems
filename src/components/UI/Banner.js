@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Slider from "react-slick";
-import bn1 from "@/components/assets/banner1.jpg";
+import bn1 from "@/components/assets/banner1.png";
 import Image from "next/image";
 
 const Banner = () => {
