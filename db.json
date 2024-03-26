@@ -1,65 +1,823 @@
-[
-  {
-    "id": "1",
-    "name": "Product 1",
-    "category": "CPU / Processor",
-    "price": 100,
-    "status": "In Stock",
-    "rating": 4,
-    "image": "/images/1.webp"
-  },
-  {
-    "id": "2",
-    "name": "Product 2",
-    "category": "Motherboard",
-    "price": 150,
-    "status": "Out of Stock",
-    "rating": 3,
-    "image": "/images/2.jpg"
-  },
-  {
-    "id": "3",
-    "name": "Product 3",
-    "category": "RAM",
-    "price": 80,
-    "status": "In Stock",
-    "rating": 5,
-    "image": "/images/3.webp"
-  },
-  {
-    "id": "4",
-    "name": "Product 4",
-    "category": "Power Supply Unit",
-    "price": 200,
-    "status": "In Stock",
-    "rating": 4,
-    "image": "/images/4.webp"
-  },
-  {
-    "id": "5",
-    "name": "Product 5",
-    "category": "Storage Device",
-    "price": 120,
-    "status": "Out of Stock",
-    "rating": 4,
-    "image": "/images/5.webp"
-  },
-  {
-    "id": "6",
-    "name": "Product 6",
-    "category": "Monitor",
-    "price": 300,
-    "status": "In Stock",
-    "rating": 5,
-    "image": "/images/6.webp"
-  },
-  {
-    "id": "7",
-    "name": "Product 7",
-    "category": "Others (GPU, Mouse, Keyboard, etc…)",
-    "price": 50,
-    "status": "In Stock",
-    "rating": 4,
-    "image": "/images/7.webp"
-  }
-]
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "category": "CPU / Processor",
+      "status": true,
+      "price": 120,
+      "rating": 4.2,
+      "image": "/images/image1.webp",
+      "description": "High-performance CPU for gaming and multitasking.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "TechMaster" },
+        { "name": "Model", "value": "SpeedDemon" },
+        { "name": "Specification", "value": "Octa-core, 4.0GHz" },
+        { "name": "Socket Type", "value": "LGA1200" },
+        { "name": "Cache", "value": "12MB" },
+        { "name": "TDP", "value": "95W" }
+      ],
+      "reviews": [
+        {
+          "user": "GamerX",
+          "rating": 5,
+          "comment": "Amazing CPU! Runs all my games smoothly."
+        },
+        {
+          "user": "TechGeek",
+          "rating": 4,
+          "comment": "Great performance for the price."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 4.5,
+          "comment": "Handles heavy tasks effortlessly."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 3.5,
+          "comment": "Good CPU but slightly overpriced."
+        },
+        {
+          "user": "BudgetBuilder",
+          "rating": 4,
+          "comment": "Good value for mid-range builds."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "category": "Motherboard",
+      "status": "Out of Stock",
+      "price": 180,
+      "rating": 4.5,
+      "image": "/images/image2.jpg",
+      "description": "High-quality motherboard with advanced features.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "TechWiz" },
+        { "name": "Model", "value": "GeniusBoard" },
+        { "name": "Chipset", "value": "AMD X570" },
+        { "name": "Form Factor", "value": "ATX" },
+        { "name": "Socket Type", "value": "AM4" },
+        { "name": "Memory Slots", "value": "4 x DDR4 DIMM" }
+      ],
+      "reviews": [
+        {
+          "user": "PCBuilder123",
+          "rating": 5,
+          "comment": "Impressive motherboard with tons of features."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Great compatibility and performance."
+        },
+        {
+          "user": "GamingFanatic",
+          "rating": 5,
+          "comment": "Perfect for gaming setups, highly recommended!"
+        },
+        {
+          "user": "BudgetBuilder",
+          "rating": 4,
+          "comment": "Good mid-range option, but lacks some premium features."
+        },
+        {
+          "user": "NewBuilder",
+          "rating": 4.5,
+          "comment": "Easy to install and setup, great value."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "category": "RAM",
+      "status": true,
+      "price": 80,
+      "rating": 4.8,
+      "image": "/images/image3.webp",
+      "description": "High-speed RAM for seamless multitasking and gaming performance.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "SpeedTech" },
+        { "name": "Model", "value": "UltraRAM" },
+        { "name": "Capacity", "value": "16GB (2 x 8GB)" },
+        { "name": "Speed", "value": "DDR4 3600MHz" },
+        { "name": "CAS Latency", "value": "CL16" },
+        { "name": "Voltage", "value": "1.35V" }
+      ],
+      "reviews": [
+        {
+          "user": "GamerPro",
+          "rating": 5,
+          "comment": "Excellent RAM, boosts gaming performance significantly."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Great for overclocking, very stable."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Fast and reliable, perfect for everyday use."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 5,
+          "comment": "Handles multitasking like a champ, no slowdowns."
+        },
+        {
+          "user": "BudgetBuilder",
+          "rating": 4,
+          "comment": "Good value for the performance, highly recommended."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Product 4",
+      "category": "Power Supply Unit",
+      "status": true,
+      "price": 200,
+      "rating": 4.5,
+      "image": "/images/image4.webp",
+      "description": "Reliable power supply unit with high efficiency and stable performance.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "PowerMaster" },
+        { "name": "Model", "value": "ElitePower" },
+        { "name": "Wattage", "value": "750W" },
+        { "name": "Efficiency", "value": "80 Plus Gold" },
+        { "name": "Modular", "value": "Fully modular" },
+        { "name": "Connectors", "value": "ATX, EPS, PCIe, SATA" }
+      ],
+      "reviews": [
+        {
+          "user": "PCBuilder123",
+          "rating": 5,
+          "comment": "Top-notch PSU, provides stable power to all components."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Efficient and quiet, perfect for high-end builds."
+        },
+        {
+          "user": "GamerPro",
+          "rating": 5,
+          "comment": "Handles heavy gaming loads with ease, no issues."
+        },
+        {
+          "user": "BudgetBuilder",
+          "rating": 4,
+          "comment": "Good value for the wattage and efficiency."
+        },
+        {
+          "user": "NewBuilder",
+          "rating": 4.5,
+          "comment": "Easy to install, cables are of good quality."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "category": "Storage Device",
+      "status": "Out of Stock",
+      "price": 120,
+      "rating": 4.2,
+      "image": "/images/image5.webp",
+      "description": "High-capacity SSD for fast data access and storage.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "SwiftStorage" },
+        { "name": "Model", "value": "SpeedySSD" },
+        { "name": "Capacity", "value": "1TB" },
+        { "name": "Interface", "value": "NVMe PCIe" },
+        { "name": "Form Factor", "value": "M.2 2280" },
+        { "name": "Speed", "value": "Up to 3500MB/s" }
+      ],
+      "reviews": [
+        {
+          "user": "TechFanatic",
+          "rating": 5,
+          "comment": "Blazing fast SSD, boots up my system in seconds."
+        },
+        {
+          "user": "GamerPro",
+          "rating": 4,
+          "comment": "Great for gaming, reduces loading times significantly."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 4.5,
+          "comment": "Handles heavy workloads without any slowdowns."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 3.5,
+          "comment": "Good SSD for everyday use, but not exceptional."
+        },
+        {
+          "user": "BudgetBuilder",
+          "rating": 4,
+          "comment": "Good value for the performance, worth the investment."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "category": "Monitor",
+      "status": true,
+      "price": 300,
+      "rating": 4.7,
+      "image": "/images/image6.webp",
+      "description": "High-resolution monitor for immersive gaming and entertainment.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "VisualTech" },
+        { "name": "Model", "value": "GamerView" },
+        { "name": "Screen Size", "value": "27 inches" },
+        { "name": "Resolution", "value": "2560 x 1440 (2K)" },
+        { "name": "Refresh Rate", "value": "144Hz" },
+        { "name": "Panel Type", "value": "IPS" }
+      ],
+      "reviews": [
+        {
+          "user": "GamerPro",
+          "rating": 5,
+          "comment": "Awesome monitor for gaming, colors are vibrant."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Great for multimedia and productivity, highly recommend."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Good overall monitor, does the job well."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 5,
+          "comment": "Impressed with the image quality, worth the price."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Decent monitor for the price, no complaints so far."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Product 7",
+      "category": "Graphics Card",
+      "status": true,
+      "price": 450,
+      "rating": 4.9,
+      "image": "/images/image7.webp",
+      "description": "High-end graphics card for ultra-smooth gaming and rendering.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "PixelMaster" },
+        { "name": "Model", "value": "GamingBeast" },
+        { "name": "Graphics Processor", "value": "NVIDIA GeForce RTX 3080" },
+        { "name": "Memory Size", "value": "10GB GDDR6X" },
+        { "name": "Memory Interface", "value": "320-bit" },
+        { "name": "Core Clock", "value": "1.71 GHz" }
+      ],
+      "reviews": [
+        {
+          "user": "GamerX",
+          "rating": 5,
+          "comment": "Unbelievable performance, runs all games at max settings flawlessly."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 5,
+          "comment": "The best GPU I've ever used, worth every penny."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 4.5,
+          "comment": "Handles heavy workloads like a champ, no complaints so far."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Great GPU for gaming and productivity, highly recommend."
+        },
+        {
+          "user": "BudgetBuilder",
+          "rating": 4.5,
+          "comment": "Expensive but worth it for the performance, no regrets."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Product 8",
+      "category": "Keyboard",
+      "status": true,
+      "price": 80,
+      "rating": 4.5,
+      "image": "/images/image1.webp",
+      "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "KeyMaster" },
+        { "name": "Model", "value": "RGBGamer" },
+        { "name": "Key Switch Type", "value": "Cherry MX Red" },
+        { "name": "Backlighting", "value": "RGB LED" },
+        { "name": "Connectivity", "value": "Wired USB" },
+        { "name": "Anti-Ghosting", "value": "Full-key rollover" }
+      ],
+      "reviews": [
+        {
+          "user": "GamerPro",
+          "rating": 5,
+          "comment": "Fantastic keyboard, feels great to type on and looks amazing."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Solid build quality, RGB lighting is vibrant and customizable."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Good keyboard for both gaming and typing, keys are responsive."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 5,
+          "comment": "Love the Cherry MX Red switches, great for gaming."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Great value for a mechanical keyboard, highly recommend."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Product 9",
+      "category": "Mouse",
+      "status": true,
+      "price": 50,
+      "rating": 4.2,
+      "image": "/images/image1.webp",
+      "description": "High-precision gaming mouse with customizable DPI settings.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "PrecisionTech" },
+        { "name": "Model", "value": "GamerMouse" },
+        { "name": "Sensor Type", "value": "Optical" },
+        { "name": "DPI Range", "value": "800 - 16000" },
+        { "name": "Programmable Buttons", "value": "6" },
+        { "name": "Connection", "value": "Wired USB" }
+      ],
+      "reviews": [
+        {
+          "user": "GamerX",
+          "rating": 4.5,
+          "comment": "Excellent mouse, very precise and comfortable to use."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4,
+          "comment": "Solid build quality, but could use more programmable buttons."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Great for everyday use and occasional gaming, no complaints."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 4.5,
+          "comment": "Love the customizable DPI settings, suits my gaming needs."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 3.5,
+          "comment": "Decent mouse for the price, but scroll wheel feels a bit loose."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Product 10",
+      "category": "Headphones",
+      "status": true,
+      "price": 120,
+      "rating": 4.8,
+      "image": "/images/image1.webp",
+      "description": "Premium wireless headphones with active noise cancellation.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "AudioMasters" },
+        { "name": "Model", "value": "NoiseGuard" },
+        { "name": "Type", "value": "Over-ear" },
+        { "name": "Wireless Technology", "value": "Bluetooth 5.0" },
+        { "name": "Noise Cancellation", "value": "Active" },
+        { "name": "Battery Life", "value": "Up to 30 hours" }
+      ],
+      "reviews": [
+        {
+          "user": "MusicLover",
+          "rating": 5,
+          "comment": "Fantastic sound quality, active noise cancellation works like a charm."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Great build quality, comfortable to wear for long periods."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4.5,
+          "comment": "Impressed with the wireless range and battery life."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 5,
+          "comment": "Best headphones I've owned, worth every penny."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Expensive but worth it for the sound quality and features."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Product 11",
+      "category": "Webcam",
+      "status": true,
+      "price": 70,
+      "rating": 4.3,
+      "image": "/images/image3.webp",
+      "description": "High-definition webcam with built-in microphone for video calls.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "ClearVision" },
+        { "name": "Model", "value": "HDcam" },
+        { "name": "Resolution", "value": "1080p" },
+        { "name": "Microphone", "value": "Built-in" },
+        { "name": "Connection", "value": "USB 2.0" },
+        { "name": "Compatibility", "value": "Windows, macOS, Linux" }
+      ],
+      "reviews": [
+        {
+          "user": "RemoteWorker",
+          "rating": 4.5,
+          "comment": "Clear video quality and decent microphone for video conferences."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4,
+          "comment": "Good webcam for the price, easy to set up and use."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Satisfactory performance for occasional video calls and meetings."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 4.5,
+          "comment": "Works well with various video conferencing apps, no issues."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 3.5,
+          "comment": "Decent webcam, but microphone quality could be better."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Product 12",
+      "category": "External Hard Drive",
+      "status": true,
+      "price": 100,
+      "rating": 4.7,
+      "image": "/images/image3.webp",
+      "description": "Portable external hard drive with high-capacity storage.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "StorageMaster" },
+        { "name": "Model", "value": "PortableDrive" },
+        { "name": "Capacity", "value": "2TB" },
+        { "name": "Interface", "value": "USB 3.0" },
+        { "name": "Compatibility", "value": "Windows, macOS" },
+        { "name": "Backup Software", "value": "Included" }
+      ],
+      "reviews": [
+        {
+          "user": "DataHoarder",
+          "rating": 5,
+          "comment": "Excellent storage solution, compact and reliable."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Fast transfer speeds and easy to carry around."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Good value for the storage capacity, works as expected."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 5,
+          "comment": "Saves me a lot of space on my laptop, very convenient."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Affordable and reliable, perfect for backups and storage."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Product 13",
+      "category": "Printer",
+      "status": true,
+      "price": 150,
+      "rating": 4.4,
+      "image": "/images/image7.webp",
+      "description": "All-in-one inkjet printer with wireless connectivity.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "PrintMaster" },
+        { "name": "Model", "value": "WirelessPrint" },
+        { "name": "Functions", "value": "Print, Scan, Copy" },
+        { "name": "Connectivity", "value": "Wi-Fi, USB" },
+        { "name": "Print Speed", "value": "Up to 10 ppm" },
+        { "name": "Supported Paper Sizes", "value": "Letter, Legal, A4" }
+      ],
+      "reviews": [
+        {
+          "user": "OfficeWorker",
+          "rating": 4.5,
+          "comment": "Great printer for office use, reliable and easy to set up."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4,
+          "comment": "Good quality prints and fast scanning, but ink consumption is a bit high."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Serves my occasional printing needs well, no complaints."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 4.5,
+          "comment": "Wireless printing is very convenient, overall a good purchase."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 3.5,
+          "comment": "Decent printer, but ink cartridges are expensive to replace."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Product 14",
+      "category": "Smartphone",
+      "status": true,
+      "price": 800,
+      "rating": 4.9,
+      "image": "/images/image7.webp",
+      "description": "Flagship smartphone with high-performance camera and AI features.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "TechGadget" },
+        { "name": "Model", "value": "SmartTech X" },
+        { "name": "Display", "value": "6.5-inch AMOLED" },
+        { "name": "Processor", "value": "Snapdragon 888" },
+        { "name": "Camera", "value": "Quad-camera setup, 108MP main sensor" },
+        { "name": "Battery Capacity", "value": "4500mAh" }
+      ],
+      "reviews": [
+        {
+          "user": "TechGeek",
+          "rating": 5,
+          "comment": "Best smartphone I've ever owned, camera quality is outstanding."
+        },
+        {
+          "user": "GadgetEnthusiast",
+          "rating": 4.5,
+          "comment": "Top-notch performance and stunning display, worth the investment."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4.5,
+          "comment": "User-friendly interface and excellent camera features."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 5,
+          "comment": "Sleek design, powerful hardware, couldn't be happier with my purchase."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Expensive but worth it for the premium features and performance."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Product 15",
+      "category": "Tablet",
+      "status": true,
+      "price": 400,
+      "rating": 4.6,
+      "image": "/images/image6.webp",
+      "description": "High-performance tablet with stylus support for productivity and creativity.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "TabMaster" },
+        { "name": "Model", "value": "ProTab X" },
+        { "name": "Display", "value": "11-inch IPS LCD" },
+        { "name": "Processor", "value": "Octa-core" },
+        { "name": "Storage", "value": "256GB SSD" },
+        { "name": "Stylus Support", "value": "Included" }
+      ],
+      "reviews": [
+        {
+          "user": "CreativeProfessional",
+          "rating": 5,
+          "comment": "Excellent tablet for digital art and note-taking, stylus is very responsive."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Powerful performance and great display quality, perfect for multimedia consumption."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Sleek design and smooth performance, good for both work and entertainment."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 4.5,
+          "comment": "Impressed with the battery life and overall build quality."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Expensive but worth it for the features and performance."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Product 16",
+      "category": "Smartwatch",
+      "status": true,
+      "price": 300,
+      "rating": 4.7,
+      "image": "/images/image6.webp",
+      "description": "Feature-rich smartwatch with health monitoring and fitness tracking.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "FitTech" },
+        { "name": "Model", "value": "FitWatch Pro" },
+        { "name": "Display", "value": "1.4-inch AMOLED" },
+        { "name": "Water Resistance", "value": "Up to 50 meters" },
+        {
+          "name": "Health Monitoring",
+          "value": "Heart rate, SpO2, Sleep tracking"
+        },
+        { "name": "Battery Life", "value": "Up to 7 days" }
+      ],
+      "reviews": [
+        {
+          "user": "FitnessEnthusiast",
+          "rating": 5,
+          "comment": "Great smartwatch for fitness tracking and health monitoring."
+        },
+        {
+          "user": "TechGeek",
+          "rating": 4.5,
+          "comment": "Smooth performance and accurate health metrics."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Easy to use and comfortable to wear, good for daily activity tracking."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 5,
+          "comment": "Love the variety of watch faces and fitness features, great value for money."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Expensive but worth it for the quality and functionality."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Product 18",
+      "category": "Wireless Earbuds",
+      "status": true,
+      "price": 120,
+      "rating": 4.3,
+      "image": "/images/image4.webp",
+      "description": "True wireless earbuds with active noise cancellation and long battery life.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "AudioBliss" },
+        { "name": "Model", "value": "SoundCalm" },
+        { "name": "Noise Cancellation", "value": "Active" },
+        {
+          "name": "Battery Life",
+          "value": "Up to 8 hours (24 hours with charging case)"
+        },
+        { "name": "Water Resistance", "value": "IPX4" },
+        { "name": "Bluetooth Version", "value": "5.0" }
+      ],
+      "reviews": [
+        {
+          "user": "MusicLover",
+          "rating": 4.5,
+          "comment": "Impressive sound quality and noise cancellation, comfortable fit."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4,
+          "comment": "Good battery life and reliable connectivity, but could use better touch controls."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Great for daily use and workouts, stays in place securely."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 4.5,
+          "comment": "Love the compact design and portability, sound is crisp and clear."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 3.5,
+          "comment": "Decent earbuds for the price, but noise cancellation is not very effective."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Product 19",
+      "category": "Portable Charger",
+      "status": true,
+      "price": 40,
+      "rating": 4.6,
+      "image": "/images/image4.webp",
+      "description": "Compact power bank with fast charging capability for smartphones and tablets.",
+      "keyFeatures": [
+        { "name": "Brand", "value": "PowerBoost" },
+        { "name": "Model", "value": "PocketPower" },
+        { "name": "Capacity", "value": "10000mAh" },
+        { "name": "Fast Charging", "value": "18W Power Delivery" },
+        { "name": "Ports", "value": "USB-C, USB-A" },
+        {
+          "name": "Safety Features",
+          "value": "Overcharge protection, Short circuit protection"
+        }
+      ],
+      "reviews": [
+        {
+          "user": "Traveler",
+          "rating": 5,
+          "comment": "Essential for travel, compact yet powerful enough to charge multiple devices."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4.5,
+          "comment": "Fast charging is a game-changer, reliable and durable construction."
+        },
+        {
+          "user": "CasualUser",
+          "rating": 4,
+          "comment": "Good backup power source for emergencies, compact design fits in pocket."
+        },
+        {
+          "user": "NewBuyer",
+          "rating": 4.5,
+          "comment": "Charges devices quickly and efficiently, lightweight and easy to carry around."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Affordable and reliable, gets the job done without any issues."
+        }
+      ]
+    }
+  ]
+}

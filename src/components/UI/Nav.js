@@ -13,26 +13,26 @@ const Nav = () => {
               <Link href="/">home</Link>
             </li>
             <li>
-              <Link href="/feature-products">CPU / Processor </Link>
+              <Link href="/">CPU / Processor </Link>
             </li>
 
             <li>
-              <Link href="/contact">Motherboard</Link>
+              <Link href="/">Motherboard</Link>
             </li>
             <li>
-              <Link href="/contact">RAM</Link>
+              <Link href="/">RAM</Link>
             </li>
             <li>
-              <Link href="/contact">Power Supply Unit</Link>
+              <Link href="/">Power Supply Unit</Link>
             </li>
             <li>
-              <Link href="/contact">Storage Device</Link>
+              <Link href="/">Storage Device</Link>
             </li>
             <li>
-              <Link href="/contact">Monitor</Link>
+              <Link href="/">Monitor</Link>
             </li>
             <li>
-              <Link href="/contact">Others</Link>
+              <Link href="/">Others</Link>
             </li>
           </ul>
         </div>
